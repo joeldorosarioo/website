@@ -8,9 +8,7 @@ export default function Introduction() {
 			<h1 className={ styles.bigHeading }>Joel Oliveira.</h1>
 			<h2 className={ styles.mediumHeading }>I build things for the web.</h2>
 
-			<p className={ styles.description }>Optio consequatur inventore ut sunt reiciendis vel esse cum mollitia quisquam doloribus itaque, et id <a href="https://google.com/">rerum</a> ab eum impedit laborum nihil laboriosam ut sunt! Magni nostrum aliquam dicta. Architecto?</p>
-
-			<a href="mailto:joeldorosarioo@gmail.com" className="button callToAction">Get In Touch</a>
+			<p className={ styles.description }>Front-end developer specialized in building (and occasionally designing) websites, applications and everything in between.</p>
 		</section>
 	)
 }
