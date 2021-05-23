@@ -1,0 +1,38 @@
+.greeting {
+	margin-bottom: 30px;
+
+	color: var(--yellow);
+	font-family: var(--font-mono);
+	font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+}
+
+.bigHeading {
+	margin-bottom: 0;
+
+	color: var(--light-gray);
+	font-family: 'Montserrat Medium';
+	font-size: clamp(40px, 8vw, 80px);
+}
+
+@media (max-width: 575.98px) {
+	.bigHeading {
+		margin-bottom: 20px;
+	}
+}
+
+.mediumHeading {
+	margin-bottom: 25px;
+	color: var(--white-tint);
+	font-size: clamp(30px, 8vw, 60px);
+}
+
+.description {
+	margin-bottom: 50px;
+	max-width: 700px;
+}
+
+@media (max-width: 575.98px) {
+	.description {
+		font-size: var(--fz-md);
+	}
+}
