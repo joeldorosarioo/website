@@ -49,7 +49,7 @@
 }
 
 :focus {
-	outline-offset: 4px;
+	outline-offset: 6px;
 	outline: 2px dashed var(--yellow);
 }
 
@@ -142,7 +142,7 @@ p:not(:last-of-type) {
 	margin-bottom: 16px;
 }
 
-a:not(.button) {
+p > a {
 	cursor: pointer;
 	position: relative;
 
@@ -152,7 +152,7 @@ a:not(.button) {
 	text-decoration-skip-ink: auto;
 }
 
-a:not(.button)::after {
+p > a::after {
 	content: '';
 	position: absolute;
 
@@ -165,9 +165,13 @@ a:not(.button)::after {
 	border-bottom: 1px solid var(--yellow);
 }
 
-a:not(.button):hover::after {
+p > a:hover::after {
 	width: 100%;
 	left: 0;
+}
+
+p > a:focus::after {
+	width: 0;
 }
 
 img, svg {
